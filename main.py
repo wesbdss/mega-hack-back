@@ -86,6 +86,9 @@ async def userID(id: int):
             "perfilimg":"https://media.tenor.com/images/74a2b4b0fc38bc87c81f68b0bb24572d/tenor.gif"}}
 
 
-@app.get('/books')
-async def books():
-    return livros
+@app.get('/books/(:id)')
+async def books(id:int):
+    if id:
+        return livros[id]
+    else
+        return livros
