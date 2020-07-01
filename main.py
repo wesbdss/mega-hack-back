@@ -1,7 +1,20 @@
 from fastapi import FastAPI
+from fastapi.middleware.cors import CORSMiddleware
 
 app = FastAPI()
 
+origins = [
+    "http://localhost",
+    "http://localhost:3000",
+]
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=origins,
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 livros = [
     {
@@ -68,8 +81,9 @@ async def userID(id: int):
     if id == 123:
         return {"user": {
             "id": "123",
-            "name": "Wesley"}
-            }
+            "name": "Wesley",
+            "email":"wesleybenicio4@gmail.com",
+            "perfilimg":"https://media.tenor.com/images/74a2b4b0fc38bc87c81f68b0bb24572d/tenor.gif"}}
 
 
 @app.get('/books')
