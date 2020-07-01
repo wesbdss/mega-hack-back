@@ -8,7 +8,7 @@ async def login():
 
 @app.get('/user/(:id)')
 async def userID(id):
-    return {"user":{
-        "id":"123",
-        "name":"Wesley"
-    }}
+    if id == '123':
+        return {"user":{
+            "id":"123",
+            "name":"Wesley"}}
