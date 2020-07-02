@@ -51,7 +51,7 @@ livros = [
     },{
         "id": 4,
         "nome": "Meu crespo é de rainha",
-        "image": "https://images-na.ssl-images-amazon.com/images/I/51u4iWzjufL._SX427_BO1,204,203,200_.jpg",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/51u4iWzjufL._SX258_BO1,204,203,200_.jpg",
         "autor": "Bell Hooks",
         "paginas": "",
         "nota": "5/5",
@@ -60,18 +60,18 @@ livros = [
         "compra":"https://www.amazon.com.br/Meu-Crespo-Rainha-Bell-Hooks/dp/857559608X/ref=pd_sbs_14_3/132-0412438-4892949?_encoding=UTF8&pd_rd_i=857559608X&pd_rd_r=472ed92d-e2e0-4a64-9a1d-0cf0ec8cb375&pd_rd_w=klIL3&pd_rd_wg=DTddt&pf_rd_p=27be8476-6095-40f6-b57d-3e82cf55061c&pf_rd_r=8N8Z46WM5VBQB69YSS06&psc=1&refRID=8N8Z46WM5VBQB69YSS06"
     },{
         "id": 5,
-        "nome": "Amoras",
-        "image": "https://images-na.ssl-images-amazon.com/images/I/51TCpYptizL._SY498_BO1,204,203,200_.jpg",
-        "autor": "Aldo Fabrini",
+        "nome": "Malala",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/51d3aO1O2zL._SX342_BO1,204,203,200_.jpg",
+        "autor": "Adriana Carranca ",
         "paginas": "",
         "nota": "4.8/5",
         "tipo":"pdf",
         "tags":["curiosidade","aventura"],
-        "compra":"https://www.amazon.com.br/dp/8574068365/ref=s9_acsd_hps_bw_c2_x_2_i?pf_rd_m=A3RN7G7QC5MWSZ&pf_rd_s=merchandised-search-6&pf_rd_r=ZV9DHPHPA8F0D1S90F0X&pf_rd_t=101&pf_rd_p=ed29da53-5931-4a7a-900e-1bb21e030b2f&pf_rd_i=7844001011"
+        "compra":"https://www.amazon.com.br/Malala-menina-queria-para-escola/dp/8574066702/ref=pd_sbs_14_1/132-0412438-4892949?_encoding=UTF8&pd_rd_i=8574066702&pd_rd_r=b33be874-611f-4aab-b54e-8950b1abdf24&pd_rd_w=bC83e&pd_rd_wg=tfyk2&pf_rd_p=27be8476-6095-40f6-b57d-3e82cf55061c&pf_rd_r=MP54MW1VG6NJW6V48EHB&psc=1&refRID=MP54MW1VG6NJW6V48EHB"
     },{
         "id": 6,
         "nome": "Capitão Cueca",
-        "image": "https://images-na.ssl-images-amazon.com/images/I/51TCpYptizL._SY498_BO1,204,203,200_.jpg",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/51H0BmRLfBL._SX327_BO1,204,203,200_.jpg",
         "autor": "Dav Pilkey",
         "paginas": "",
         "nota": "5/5",
