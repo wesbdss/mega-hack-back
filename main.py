@@ -142,3 +142,11 @@ async def book():
 async def books(id: int):
     if id >= 0:
         return livros[id]
+
+@app.get('/busca/{dado}')
+async def busca(dado: str):
+    retorno = []
+    for livro in livros:
+        if livro.nome.find(dado) or livro.tipo.find(dado) or livro.desc.find(dado):
+            retorno.append(livro)
+    return retorno
