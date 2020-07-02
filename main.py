@@ -103,6 +103,6 @@ async def book():
     
 @app.get('/books/{id}')
 async def books(id:int):
-    if id:
+    if id >=0:
         return livros[id]
         
