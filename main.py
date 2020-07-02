@@ -6,6 +6,7 @@ app = FastAPI()
 origins = [
     "http://localhost",
     "http://localhost:3000",
+    "https://wesbdss.github.io/"
 ]
 
 app.add_middleware(
@@ -95,9 +96,20 @@ livros = [
         "paginas": "",
         "nota": "5/5",
                 "desc": "Texto exemplo Texto exemplo Texto exemplo Texto exemplo Texto exemplo Texto exemplo Texto exemplo Texto exemplo Texto exemplo Texto exemplo Texto exemplo Texto exemplo Texto exemplo Texto exemplo Texto exemplo Texto exemplo Texto exemplo Texto exemplo ",
-        "tipo": "anima",
+        "tipo": "animado",
         "tags": ["Animada", "aventura"],
         "compra":"http://www.sbs.com.au/theboat/"
+    },{
+        "id": 6,
+        "nome": "The Boat",
+        "image": "https://www.sbs.com.au/theboat/images/fb-image.jpg",
+        "autor": "Nam Le",
+        "paginas": "",
+        "nota": "5/5",
+                "desc": "Texto exemplo Texto exemplo Texto exemplo Texto exemplo Texto exemplo Texto exemplo Texto exemplo Texto exemplo Texto exemplo Texto exemplo Texto exemplo Texto exemplo Texto exemplo Texto exemplo Texto exemplo Texto exemplo Texto exemplo Texto exemplo ",
+        "tipo": "animado",
+        "tags": ["Animada", "aventura"],
+        "compra":"mega-hack-3/anima"
     }
 
 ]
