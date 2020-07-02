@@ -26,7 +26,10 @@ livros = [
         "nota": "4.8/5",
         "tipo":"pdf",
         "tags":["curiosidade","aventura"],
-        "compra":"https://www.amazon.com.br/dp/8574068365/ref=s9_acsd_hps_bw_c2_x_2_i?pf_rd_m=A3RN7G7QC5MWSZ&pf_rd_s=merchandised-search-6&pf_rd_r=ZV9DHPHPA8F0D1S90F0X&pf_rd_t=101&pf_rd_p=ed29da53-5931-4a7a-900e-1bb21e030b2f&pf_rd_i=7844001011"
+        "compra":"https://www.amazon.com.br/dp/8574068365/ref=s9_acsd_hps_bw_c2_x_2_i?pf_rd_m=A3RN7G7QC5MWSZ&pf_rd_s=merchandised-search-6&pf_rd_r=ZV9DHPHPA8F0D1S90F0X&pf_rd_t=101&pf_rd_p=ed29da53-5931-4a7a-900e-1bb21e030b2f&pf_rd_i=7844001011",
+        "desc":{
+            ""
+        }
     },
     {
         "id": 1,
@@ -78,6 +81,17 @@ livros = [
         "tipo":"pdf",
         "tags":["curiosidade","aventura"],
         "compra":"https://www.amazon.com.br/Capit%C3%A3o-grande-desagrad%C3%A1vel-batalha-bi%C3%B4nico/dp/8574068837/ref=gbph_img_m-2_f06c_0584acbe?smid=A1ZZFT5FULY4LN&pf_rd_p=bd0de57a-f54b-4ad9-b752-233587c3f06c&pf_rd_s=merchandised-search-2&pf_rd_t=101&pf_rd_i=7844001011&pf_rd_m=A1ZZFT5FULY4LN&pf_rd_r=24JEW7S5B864A5JK28JJ"
+    }
+    ,{
+        "id": 6,
+        "nome": "The Boat",
+        "image": "https://www.sbs.com.au/theboat/images/fb-image.jpg",
+        "autor": "Nam Le",
+        "paginas": "",
+        "nota": "5/5",
+        "tipo":"anima",
+        "tags":["Animada","aventura"],
+        "compra":"http://www.sbs.com.au/theboat/"
     }
     
 ]
