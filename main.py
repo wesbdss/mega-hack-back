@@ -147,6 +147,6 @@ async def books(id: int):
 async def busca(dado: str):
     retorno = []
     for livro in livros:
-        if livro['tipo'].find(dado):
+        if livro['tipo'] in dado:
             retorno.append(livro)
     return retorno
