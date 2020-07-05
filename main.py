@@ -4,10 +4,11 @@ from fastapi.middleware.cors import CORSMiddleware
 app = FastAPI()
 
 origins = [
+    "https://wesbdss.github.io"
+    "http://wesbdss.github.io",
     "http://localhost",
     "http://localhost:3000",
-    "https://wesbdss.github.io",
-    "http://wesbdss.github.io",
+    
 ]
 
 app.add_middleware(

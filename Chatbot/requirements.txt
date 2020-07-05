@@ -1,0 +1,3 @@
+supbot
+python-aiml
+unidecode

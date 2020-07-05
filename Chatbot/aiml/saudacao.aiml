@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+
+    <category>
+        <pattern>OI</pattern>
+        <template>
+        Olá!
+        </template>
+    </category>
+
+    <category>
+        <pattern>HELP</pattern>
+        <template>
+            command:help
+        </template>
+    </category>
+
+    <category>
+        <pattern>SOCORRO</pattern>
+        <template>
+            command:help
+        </template>
+    </category>
+
+    <category>
+        <pattern>AJUDA</pattern>
+        <template>
+            command:help
+        </template>
+    </category>
+
+
+    <category>
+        <pattern>OLA</pattern>
+        <template>
+        Olá!
+        </template>
+    </category>
+
+    <category>
+        <pattern>OLA *</pattern>
+        <template>
+            Olá!
+        </template>
+    </category>
+    <category>
+        <pattern>QUAL SEU NOME</pattern>
+        <template>
+            Meu nome é Genini!
+        </template>
+    </category>
+    <category>
+        <pattern>O QUE E VC</pattern>
+        <template>
+            Meu nome é Genini! Sou um Bot!
+        </template>
+    </category>
+
+    <category>
+        <pattern>QUEM E VC</pattern>
+        <template>
+            Meu nome é Genini!
+        </template>
+    </category>
+
+    <category>
+        <pattern>LIVROS</pattern>
+        <template>
+            command:listadelivros
+        </template>
+    </category>
+
+    <category>
+        <pattern>* LIVROS</pattern>
+        <template>
+            Meu nome é Genini!
+        </template>
+    </category>
+
+    <category>
+        <pattern>BUSCAR LIVROS *</pattern>
+        <template>
+            command:listadelivros <star/>
+        </template>
+    </category>
+
+    <category>
+        <pattern>LIVROS DISPONIVEIS</pattern>
+        <template>
+            command:listadelivros <star/>
+        </template>
+    </category>
+
+    <category>
+        <pattern>LIVROS *</pattern>
+        <template>
+            command:listadelivros <star/>
+        </template>
+    </category>
+
+    <category>
+        <pattern>LIVROS *</pattern>
+        <template>
+            command:listadelivros <star/>
+        </template>
+    </category>
+
+    <category>
+        <pattern>LER O LIVRO *</pattern>
+        <template>
+            command:selecionarlivro <star/>
+        </template>
+    </category>
+
+    <category>
+        <pattern>LER LIVRO *</pattern>
+        <template>
+            command:selecionarlivro <star/>
+        </template>
+    </category>
+
+    <category>
+        <pattern>LER LIVRO *</pattern>
+        <template>
+            command:selecionarlivro <star/>
+        </template>
+    </category>
+
+    <category>
+        <pattern>LER *</pattern>
+        <template>
+            command:selecionarlivro <star/>
+        </template>
+    </category>
+
+
+
+
+    <category>
+        <pattern>*</pattern>
+        <template>
+            NoTarget
+        </template>
+    </category>
+
+</aiml>
