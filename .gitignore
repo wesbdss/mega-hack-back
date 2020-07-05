@@ -1,1 +1,5 @@
 *.bat
+/Chatbot/__pycache__
+/Chatbot/appium.log
+/Chatbot/naotreinadas.txt
+

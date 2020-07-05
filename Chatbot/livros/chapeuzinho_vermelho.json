@@ -3,6 +3,8 @@
     "quest":{
         "pergunta":"quem era que estava no lugar da vovô quando a chapeuzinho vermelho chegou?",
         "resposta":"lobo"
+    },"dados":{
+        "duracao": "Curta"
     },
     "historia": [
         {
