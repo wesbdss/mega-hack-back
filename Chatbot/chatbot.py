@@ -6,15 +6,17 @@ bot = aimlbot()
 
 
 def message_received(contact_name: str, message: str):
-    resposta = bot.login(message,contact_name)
+    resposta = bot.login(message, contact_name)
     if type(resposta) == list:
         resposta = resposta[::-1]
         for x in resposta:
-            supbot.send_message(contact_name,x)
+            supbot.send_message(contact_name, x)
             # time.sleep(300)
+    elif resposta:
+        supbot.send_message(contact_name, resposta)
     else:
-        supbot.send_message(contact_name,resposta)
-    
+        print("ERRO : ", resposta)
+
 
 with Supbot(message_received=message_received) as supbot:
     supbot.wait_for_finish()

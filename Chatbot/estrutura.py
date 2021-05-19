@@ -89,7 +89,8 @@ class aimlbot:
                                 if nome.lower() == opcao.lower():
                                     for linha in data['historia']:
                                         texto.append(linha['text'])
-                                    return texto.append("*FIM*")
+                                    texto.append("*FIM*")
+                                    return texto
                         return 'O livro {} não foi encontrado na base de livros'.format(opcao)
                 except Exception as ex:
                     print("erro no selecionar livros ", ex)

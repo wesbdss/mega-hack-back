@@ -16,11 +16,53 @@
     </category>
 
     <category>
+        <pattern>PODERIA ME AJUDAR</pattern>
+        <template>
+            Claro!
+        </template>
+    </category>
+
+    <category>
+        <pattern>PODERIA ME AJUDAR</pattern>
+        <template>
+            command:help
+        </template>
+    </category>
+
+    <category>
         <pattern>SOCORRO</pattern>
         <template>
             command:help
         </template>
     </category>
+
+    <category>
+        <pattern>MUITO BOM</pattern>
+        <template>
+           Obrigada
+        </template>
+    </category>
+    <category>
+        <pattern>MUITO BOA A HISTORIA</pattern>
+        <template>
+            Obrigada
+        </template>
+    </category>
+
+    <category>
+        <pattern>GOSTEI DA HISTORIA</pattern>
+        <template>
+            Obrigada
+        </template>
+    </category>
+
+    <category>
+        <pattern>LEIA OUTRA PRA MIM</pattern>
+        <template>
+            Obrigada
+        </template>
+    </category>
+
 
     <category>
         <pattern>AJUDA</pattern>
@@ -92,7 +134,7 @@
     </category>
 
     <category>
-        <pattern>LIVROS *</pattern>
+        <pattern>QUAIS SAO OS LIVROS DISPONIVEIS</pattern>
         <template>
             command:listadelivros <star/>
         </template>
@@ -107,34 +149,23 @@
 
     <category>
         <pattern>LER O LIVRO *</pattern>
-        <template>
-            command:selecionarlivro <star/>
-        </template>
+        <template>command:selecionarlivro <star/></template>
     </category>
 
     <category>
         <pattern>LER LIVRO *</pattern>
-        <template>
-            command:selecionarlivro <star/>
-        </template>
+        <template>command:selecionarlivro <star/></template>
     </category>
 
     <category>
         <pattern>LER LIVRO *</pattern>
-        <template>
-            command:selecionarlivro <star/>
-        </template>
+        <template>command:selecionarlivro <star/></template>
     </category>
 
     <category>
         <pattern>LER *</pattern>
-        <template>
-            command:selecionarlivro <star/>
-        </template>
+        <template>command:selecionarlivro <star/></template>
     </category>
-
-
-
 
     <category>
         <pattern>*</pattern>
